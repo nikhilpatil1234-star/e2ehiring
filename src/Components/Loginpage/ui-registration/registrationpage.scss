@@ -1,0 +1,208 @@
+.login-main-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;        // dont use this method 
+}
+.right-side-login {
+  display: flex;
+  //  flex-direction: column;
+  //  border: 1px solid red;
+  width: 458px;
+  height: 100%;
+  margin-right: 100px;
+}
+.right-side-login {
+  h1 {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+}
+.input-form1{
+  height: 380px;
+  overflow: hidden;
+  overflow-y:scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.input-form1 input{
+  padding-left: 10px;
+}
+.input-form1::-webkit-scrollbar{
+  display: none;
+}
+.input-form-first-second-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side-login input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width:100%;
+  height: 45px;
+  border: 1px solid #b4b2b2;
+  border-radius: 4px;
+}
+.right-side-login label {
+  color: black;
+  // color:red;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #696969;
+}
+.btn1 {
+  background-color: #f95368;
+  border: 1px solid #f95368;
+  margin-top: 40px;
+  margin-left: 13px;
+  font-size: 18px;
+  width: 400px;
+}
+//  .forgot-password-link a {
+//      color: #F95368;
+//      text-decoration: none;
+//      display: flex;
+//      flex-direction: row-reverse;
+//      margin-right: 50px;
+//  }
+.details-privacy {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.btn1:hover {
+  background-color: #f95368;
+  border-color: #f95368;
+}
+
+//left side page
+
+.left-side-login {
+  max-width: 700px;
+  height: 100vh;
+  // border: 1px solid red;
+  // background-color:rgb(231, 249, 255);
+  box-shadow: 1px 2px 3px grey;
+  z-index: -1;
+  margin-right: 70px;
+
+  background-image: url("../../asset/background.png");
+  //  font-size:50px;
+  background-size: cover;
+  margin-top: -60px;
+  background-repeat: no-repeat;
+}
+.left-side-registration-image{
+  margin-top:-100px;
+  width: 700px;
+  height: 696px;
+  box-shadow: 1px 2px 3px grey;
+  z-index: -1;
+  background-image: url("../../asset/background.png");
+  background-size: cover;
+  background-repeat: repeat;
+  margin-left: -50px;
+}
+
+.card-registration {
+  width: 560px;
+  height: 380x;
+  margin-left: 60px;
+  border-radius: 20px;
+  margin-top: 290px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.card-registration-blank {
+  width: 120px;
+  height: 2px;
+  border: 1px solid lightgrey;
+  margin-left: 245px;
+  margin-top: 20px;
+}
+.card-registration-title {
+  width: 227px;
+  height: 40px;
+  align-items: center;
+
+  margin-top: 27px;
+  margin-left: 174px;
+  font-size: 31px;
+  color: #1d1d1d;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  opacity: 1;
+  box-shadow: 0px 3px 8px 3px lightblue;
+}
+.card-registration-body p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #1d1d1d;
+  margin-top: 15px;
+}
+
+.cart-text-2 p {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #7fc9d6;
+  text-align: center;
+}
+
+.card-content-1 {
+  color: #696969;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  .ai-icon {
+    width: 80px;
+    height: 60px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    background-image: url("../../asset/ai.jpeg");
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    //  font-size:50px
+  }
+  p {
+    margin-left: 36px;
+  }
+}
+.card-content-2 {
+  color: #696969;
+  font-size: 16px;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+
+  .setting-icon {
+    width: 100px;
+    height: 60px;
+    padding: 8px;
+    border: 1px solid white;
+    background-image: url("../../asset/settings.jpeg");
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    margin-left: 20px;
+  }
+  p {
+    margin-left: 36px;
+  }
+}
+
+// right side of the registration is at top
